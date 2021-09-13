@@ -1,0 +1,64 @@
+header{
+    background-image: url("img/assets/img/pattern.png");
+    background-color: lightblue;
+    height: 150px;
+}
+
+
+#logo{
+    height: 300px;
+    width: 300px;
+    margin: -60px 0 0 -0px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+#sottotitolo{
+    color: rgba(153, 153, 152, 1);
+}
+
+#data{
+    color: rgba(153, 153, 152, 1);
+}
+
+
+.commento-foto{
+    font-size: 8px;
+}
+
+.evidenziato{
+    background: yellow;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    color: white;
+    background-color: steelblue;
+    text-align: left;
+}
+
+.th-exp{
+    width: 50%;
+}
+
+tr:nth-child(even){
+    background-color: skyblue;
+    
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
+.testo{
+    position: absolute;
+    top: 1px;
+    right: 1px;
+}
