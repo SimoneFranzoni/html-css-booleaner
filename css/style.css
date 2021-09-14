@@ -1,42 +1,62 @@
-header{
-    background-image: url("img/assets/img/pattern.png");
-    background-color: lightblue;
-    height: 150px;
+*{
+    margin: 0;
+    padding: 0;
+    text-align: left;
 }
 
+header{
+    background-image: url("../img/assets/img/pattern.png");
+    background-color: lightblue;
+    height: 100px;
+    background-size: 20%;
+}
 
 #logo{
-    height: 300px;
-    width: 300px;
-    margin: -60px 0 0 -0px;
+    height: 200px;
+    width: 200px;
+    margin: -40px;
+    position: relative; left: -665px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    
 }
 
 h1{
     font-size: 50px;
 }
 
-#scritta-blue{
-    color:blue;
-}
-
-#sottotitolo{
+.sottotitolo{
     color: rgba(153, 153, 152, 1);
 }
 
-#data{
+.sottotitolo span{
+    color: blue;
+}
+
+.data{
     color: rgba(153, 153, 152, 1);
+}
+
+.immagine{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .commento-foto{
-    font-size: 8px;
+    font-size: 10px;
 }
 
-.evidenziato{
-    background: yellow;
+.contenuto{
+    margin: 20px 0px;
 }
 
 table{
     border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 th{
@@ -56,6 +76,7 @@ tr:nth-child(even){
 
 #scritta-grigia{
     color: gray;
+    margin-bottom: 10px;
 }
 
 .container {
@@ -64,8 +85,25 @@ tr:nth-child(even){
 }
 
 .testo-foto{
-    position: absolute;
+    position: relative;
     color: white;
-    margin-left: 15px;
-    margin-top: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 160px;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
+
+#foto1{
+    background-image: url(../img/assets/img/monitor.jpg);
+}
+
+#foto2{
+    background-image: url(../img/assets/img/graph.jpg);
+}
+
+.evidenziato{
+    background: yellow;
+}
+
+
